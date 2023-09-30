@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256.26785mm"
+   height="264.58334mm"
+   viewBox="0 0 256.26785 264.58334"
+   version="1.1"
+   id="svg5055"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="powertogglebutton.svg">
+  <defs
+     id="defs5049" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="887.14284"
+     inkscape:cy="642.85717"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5052">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(257.0238,66.613098)">
+    <g
+       id="g5626">
+      <ellipse
+         ry="132.29167"
+         rx="128.13393"
+         cy="65.678574"
+         cx="-128.88988"
+         id="path5618"
+         style="opacity:1;fill:#4fbe4e;fill-opacity:1;stroke:none;stroke-width:21.66528702;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         ry="109.75846"
+         rx="111.47652"
+         cy="66.405441"
+         cx="-129.78683"
+         id="path5616"
+         style="opacity:1;fill:#65db53;fill-opacity:1;stroke:#4ddb31;stroke-width:4.87004614;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path5602"
+         d="m -183.66621,32.956123 c -11.21901,10.896232 -18.08581,25.340075 -18.08581,41.135388 0,33.871229 31.43255,61.407449 70.3122,61.407449 38.782933,0 70.312199,-27.45175 70.312199,-61.407449 0,-15.795313 -6.866803,-30.239156 -18.085806,-41.135388"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#1a2d1b;stroke-width:27.11519432;stroke-linecap:round;stroke-opacity:1" />
+      <line
+         id="line5604"
+         y2="74.091515"
+         x2="-131.34309"
+         y1="-8.6860657"
+         x1="-131.34309"
+         style="fill:none;stroke:#1a2d1b;stroke-width:27.11519432;stroke-linecap:round;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
