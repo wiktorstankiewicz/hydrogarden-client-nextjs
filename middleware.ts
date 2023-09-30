@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
-import axiosInstance from '@/app/axios-instance'
 
 async function isAuthenticated(request: NextRequest) {
 
@@ -13,13 +12,20 @@ async function isAuthenticated(request: NextRequest) {
     return false
   }
   console.log(token)
-   const res = await fetch("http://192.168.0.2:8080/auth/verify", {
-       method: 'POST',
-       headers: {
-           'Content-Type': 'application/json',
-       },
-       body: token
-   })
+  let res = null
+  try{
+
+     res = await fetch(process.env.NEXT_PUBLIC_DOCKER_BRIDGE_URL +  "/auth/verify", {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: token
+    })
+  }catch{
+    console.log("fetch failed")
+    return false;
+  }
    if(res.status == 200){
     console.log("true")
        return true

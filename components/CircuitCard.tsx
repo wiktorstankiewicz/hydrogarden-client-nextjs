@@ -64,14 +64,14 @@ function CircuitCard(props: {
   };
 
   const handleEditScheduleSubmit = (
-    event: React.FormEvent<HTMLInputElement>
+    event: any
   ) => {
     event.preventDefault();
     const startDate = event.target.startDate.value;
     const endDate = event.target.endDate.value;
     const frequencyDays = event.target.frequencyDays.value;
     const wateringTime = event.target.wateringTime.value;
-    const circuitScheduleId = props.circuit.circuitSchedule.id;
+    const circuitScheduleId = props.circuit.circuitSchedule?.id;
     const startTime = event.target.startTime.value;
 
     const circuitSchedule = {
@@ -141,7 +141,7 @@ function CircuitCard(props: {
   };
 
   const handleRenameCircuitSubmit = (
-    event: React.FormEvent<HTMLInputElement>
+    event: any
   ) => {
     event.preventDefault();
     const circuitName = event.target.circuitName.value;

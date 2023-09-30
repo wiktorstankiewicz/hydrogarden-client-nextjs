@@ -26,8 +26,8 @@ export default function SignIn() {
   const [snackbarMessage, setSnackbarMessage] = useState<string | null>(null);
   const router = useRouter();
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
-    setIsProcessing(true);
     event.preventDefault();
+    setIsProcessing(true);
     const data = new FormData(event.currentTarget);
     const email = data.get("email");
     const login = data.get("login");
@@ -118,7 +118,6 @@ export default function SignIn() {
           <Box
             component="form"
             onSubmit={handleSubmit}
-            method="post"
             noValidate
             sx={{ mt: 1 }}
           >
